@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component snapshot 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <h2
+      className="subtitle"
+    >
+      React Challenge! Good Luck
+    </h2>
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="input-display"
+    >
+      <p
+        data-testid="name-display"
+      >
+        Name: 
+        
+      </p>
+      <p
+        data-testid="age-display"
+      >
+        Age: 
+        
+      </p>
+    </div>
+    <div
+      className="inputs"
+    >
+      <div
+        className="field"
+      >
+        <label
+          className="label"
+        >
+          Name: 
+        </label>
+        <input
+          className="input"
+          data-testid="name-input"
+          name="name"
+          onChange={[Function]}
+          placeholder="Enter your name, ex. Kevin"
+          type="text"
+        />
+      </div>
+      <div
+        className="field"
+      >
+        <label
+          className="label"
+        >
+             Age: 
+        </label>
+        <input
+          className="input"
+          data-testid="age-input"
+          min="0"
+          name="age"
+          onChange={[Function]}
+          placeholder="Enter your age, ex. 44"
+          type="number"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
